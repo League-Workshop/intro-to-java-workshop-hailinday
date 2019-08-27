@@ -9,7 +9,16 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
-		
+		Robot rob=new Robot("mini");
+		rob.setSpeed(25);
+		rob.penDown();
+		rob.move(50);
+		rob.turn(90);
+		rob.move(50);
+		rob.turn(90);
+		rob.move(50);
+		rob.turn(90);
+		rob.move(50);
 		
 	}
 }
